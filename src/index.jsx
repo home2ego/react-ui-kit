@@ -2,6 +2,7 @@ import { createRoot } from 'react-dom/client';
 import Link from './Link.jsx';
 import Button from './Button.jsx';
 import Container from './Container.jsx';
+import Input from './Input.jsx';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Button type="button" disabled="true">
           Click button
         </Button>
+        <Input placeholder="Full Name" name="full_name" />
       </Container>
     </>
   );
