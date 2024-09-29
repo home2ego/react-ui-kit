@@ -11,7 +11,7 @@ function App() {
         <Link href="https://artemzhyrnyi.netlify.app/" target="_blank">
           Link text
         </Link>
-        <Button type="button" disabled="true">
+        <Button type="button" disabled={true}>
           Click button
         </Button>
         <Input placeholder="Full Name" name="full_name" />
