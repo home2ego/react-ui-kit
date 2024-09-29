@@ -2,7 +2,7 @@ export default function Link(props) {
   const { href, target, children } = props;
 
   return (
-    <a href={href} target={target} className="ui-link">
+    <a className="ui-link" href={href} target={target}>
       {children}
     </a>
   );
