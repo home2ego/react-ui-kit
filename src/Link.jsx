@@ -1,8 +1,11 @@
+import clsx from 'clsx';
+
 export default function Link(props) {
-  const { href, target, children } = props;
+  const { children, className, ...rest } = props;
+  const classes = clsx('ui-link', className);
 
   return (
-    <a className="ui-link" href={href} target={target}>
+    <a className={classes} {...rest}>
       {children}
     </a>
   );

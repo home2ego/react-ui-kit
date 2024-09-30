@@ -1,5 +1,8 @@
-export default function Input(props) {
-  const { type = 'text', placeholder, name } = props;
+import clsx from 'clsx';
 
-  return <input className="ui-textfield" type={type} placeholder={placeholder} name={name} />;
+export default function Input(props) {
+  const { className, type = 'text', ...rest } = props;
+  const classes = clsx('ui-textfield', className);
+
+  return <input className={classes} type={type} {...rest} />;
 }

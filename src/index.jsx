@@ -7,7 +7,7 @@ import Input from './Input.jsx';
 function App() {
   return (
     <>
-      <Container>
+      <Container className="main">
         <Link href="https://artemzhyrnyi.netlify.app/" target="_blank">
           Link text
         </Link>

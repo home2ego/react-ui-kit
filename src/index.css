@@ -7,6 +7,10 @@
   font-size: 18px;
 }
 
+.main {
+  background-color: #222;
+}
+
 .ui-link {
   text-decoration: none;
   color: var(--primary);
